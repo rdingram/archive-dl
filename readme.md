@@ -2,7 +2,7 @@
 A small script to download live shows from archive.org. It should work on "streaming only" sjpws as well.
 
 ## Installation
-You will first need to download the script to a directory in your PATH. On my Fedora system that is ~/bin. Then you need to make the script executable. So for fedora do:
+You will first need to [download](https://github.com/rdingram/archive-dl/raw/master/archive-dl) the script to a directory in your PATH. On my Fedora system that is ~/bin. Then you need to make the script executable. So for fedora do:
 
 ```bash
 cd ~/bin
@@ -12,7 +12,7 @@ chmod 755 archive-dl
 
 ## Usage
 
-The script takes one argument, the url of the show you would like to [download](https://github.com/rdingram/archive-dl/raw/master/archive-dl). Here is an example using the Grateful Dead's concert at Barton Hall on 5/8/1977.
+The script takes one argument, the url of the show you would like to download. Here is an example using the Grateful Dead's concert at Barton Hall on 5/8/1977.
 
 ```bash
 archive-dl https://archive.org/details/gd1977-05-08.shure57.stevenson.29303.flac16
