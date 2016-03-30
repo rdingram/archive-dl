@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+# This is a quick and dirty script to download live shows from archive.org that are "stream only".
+# You will need to copy this source to a file called archive-dl. Then you will need to run the command
+# chmod +x archive-dl. You can then use the syntax below.
+
+# Written by David Ingram, david@clevelandlibrary.org. Licensed under the GPL.
+
+
+# Usage: ./archive-dl [url]
+
+
+
+curl $1 | grep -Po '"file":.*?[^\\]",' | grep mp3 | awk -F ":" '{gsub(/"/, "", $2); gsub(/,/, "", $2); print "https://www.archive.org"$2}' > download-list
+
+wget -c -i download-list && rm download-list
