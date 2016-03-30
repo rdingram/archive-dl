@@ -2,6 +2,17 @@
 A small script to download live shows from archive.org. It should work on "streaming only" sjpws as well.
 
 ## Installation
+
+### Pre-Requisites
+You will need the following:
+* Any linux flavor should work fine as long as you have ....
+* BASH 
+* curl
+* grep
+* awk
+* wget
+
+### Install procedure
 You will first need to [download](https://github.com/rdingram/archive-dl/raw/master/archive-dl) the script to a directory in your PATH. On my Fedora system that is ~/bin. Then you need to make the script executable. So for fedora do:
 
 ```bash
