@@ -4,8 +4,8 @@ A small script to download live shows from archive.org. It should work on "strea
 ## Installation
 
 ### Pre-Requisites
-You will need the following:
-* Any linux flavor should work fine as long as you have ....
+Any linux flavor should work fine as long as you have ....
+
 * BASH 
 * curl
 * grep
